@@ -119,7 +119,6 @@ with st.sidebar:
     load_clicked = colB.button("Load", use_container_width=True)
     
     st.divider()
-    # Clean Chat Button
     if st.button("Clear Chat", use_container_width=True):
         st.session_state.messages = []
         st.rerun()
@@ -234,4 +233,5 @@ if query := st.chat_input("Ask a question..."):
                         with st.expander("Sources (Actual Evidence Used)"):
                             st.markdown(format_citations_from_chunks(evidence_used))
             except Exception as e:
+
                 st.error(f"Error: {e}")
