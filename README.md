@@ -75,6 +75,4 @@ streamlit run app.py
 
 ## Security Note
 
-This app includes a security toggle for **FAISS Deserialization**. By default, loading pickle-based indexes is disabled for safety. If you are loading an index you created locally, enable "Allow Dangerous Deserialization" in the sidebar.
-
-```
+This app includes a security toggle for **FAISS Deserialization**. By default, loading pickle-based indexes is disabled for safety. If you are loading an index you created locally, enable "Allow Local Index Deserialization" in the sidebar.
