@@ -22,7 +22,7 @@ graph TD
     Critic -->|Status: RETRY| Planner
     Critic -->|Status: OK| FinalAnswer
     FinalAnswer --> End
-
+```
 
 To make this project portfolio-ready for GitHub, you need to wrap the code in a standard structure with clear documentation. A recruiter or hiring manager will look at the `README.md` first, so that is your most important asset.
 
