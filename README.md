@@ -42,7 +42,7 @@ ollama pull nomic-embed-text
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/agentic-rag.git](https://github.com/YOUR_USERNAME/agentic-rag.git)
+git clone [https://github.com/avikodali0331/agentic-rag.git](https://github.com/avikodali0331/agentic-rag.git)
 cd agentic-rag
 
 ```
