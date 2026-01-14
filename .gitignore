@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+data/
+logs/
+doc_fingerprints.json
+ingest_manifest.json
+
+.venv/
+venv/
+.env
